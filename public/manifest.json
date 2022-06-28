@@ -1,0 +1,9 @@
+{
+    "name": "Pizza - Salvator's Pizza &amp; Pasta",
+    "short_name": "Salvator's",
+    "icons": [{ "src": "salvator.png","type": "image/png","sizes": "269x100" }],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}

@@ -1,0 +1,62 @@
+.footer-section {
+    display: flex;
+    padding: 5rem 0;
+    margin-top: 5.8rem;
+    text-align: center;
+    background: #ededed;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-section>h1 {
+    margin-bottom: 0;
+}
+
+.footer-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.footer-title {
+    font-size: 2rem;
+}
+
+.footer-text {
+    font-size: 0.938;
+    max-width: 39rem;
+}
+
+.footer-inputs>input[type=text] {
+    width: 23.5rem;
+    color: #373a3c;
+    border: none;
+    outline: none;
+    padding: .8rem 1rem;
+    font-size: .87rem;
+    background: #d8d8d8;
+    transition: all .5s ease-in-out;
+    vertical-align: middle;
+}
+
+.footer-inputs>input[type=text]::placeholder {
+    color: #373a3c;
+    font-weight: 500;
+}
+
+.footer-inputs>input[type=submit] {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: .75rem 1.7rem;
+    font-size: .92rem;
+    background: #000;
+    transition: all .3s ease-in-out;
+    font-weight: 600;
+}
+
+.footer-inputs>input[type=submit]:hover {
+    background: #61ce70;
+}

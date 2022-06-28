@@ -1,0 +1,27 @@
+.copyright-section {
+    color: #fff;
+    display: flex;
+    padding: 1.15rem;
+    background: #000;
+}
+
+.copyright-section>span {
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.copyright-icons {
+    margin-left: 21.9%;
+    margin-right: auto;
+}
+
+.copyright-icons>a {
+    color: inherit;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    transition: all .25s ease-in-out;
+}
+
+.copyright-icons>a:hover {
+    color: #25ad59;
+}

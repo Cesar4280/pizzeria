@@ -1,0 +1,45 @@
+div.servbar-section {
+    color: white;
+    padding: .65rem 0;
+    background-color: #ff0101;
+}
+
+span.servbar-separation {
+    font-size: 0.5rem;
+}
+
+ul.servbar-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 0.9rem;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+li.servbar-item {
+    margin: 0rem 1rem;
+}
+
+li.servbar-item>a {
+    color: inherit;
+    display: block;
+    text-decoration: none;
+}
+
+li.servbar-item>a>span>i.fas {
+    font-weight: 900;
+}
+
+span.servbar-option {
+    margin-left: .8rem;
+}
+
+@media (max-width: 767px) {
+    ul.servbar-list {
+        flex-wrap: wrap;
+        font-size: 0.8rem;
+        justify-content: center;
+    }
+}

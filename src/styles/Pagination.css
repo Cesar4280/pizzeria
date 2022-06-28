@@ -1,0 +1,19 @@
+.pagination-indicators {
+    margin-top: 2rem;
+}
+
+.pagination-indicators>a {
+    margin: 0.19rem;
+    padding: 0.63rem;
+    font-size: 1.02rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.pagination-indicators>a:hover,
+.pagination-indicators>a.active {
+    color: #fff;
+    cursor: pointer;
+    background: #ff0101;
+    border-radius: 6.25rem;
+}

@@ -1,0 +1,65 @@
+.card {
+    color: #000;
+    display: flex;
+    background: #f8f8f8;
+    font-weight: 400;
+    margin-bottom: 1.3rem;
+}
+
+.card-list {
+    margin-top: 4rem;
+}
+
+.card-image {
+    object-fit: cover;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card-content {
+    width: 26rem;
+    padding: 1rem;
+    align-self: center;
+}
+
+.card-prices {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.bg-gray-dark {
+    background: #d8d8d8;
+}
+
+.bg-gray-light {
+    background: #efefef;
+}
+
+.card-price {
+    padding: 1.5rem 1rem .5rem 1rem;
+}
+
+.card-title {
+    font-size: 1.29rem;
+    font-weight: 800;
+    line-height: 1em;
+}
+
+.card-text {
+    color: #7a7a7a;
+    font-size: .9rem;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.card-pagination {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}

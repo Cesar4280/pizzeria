@@ -1,0 +1,1 @@
+export type Counter = [counter: number, increase: () => void, decrement: () => void, reset: () => void];
