@@ -1,6 +1,6 @@
 import "../styles/Footer.css";
 
-export default function Footer() {
+export default function Footer(): JSX.Element {
     return (
         <div className="footer-section">
             <h1 className="footer-title">Suscríbete</h1>

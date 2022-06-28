@@ -1,6 +1,6 @@
 import "../styles/Copyright.css";
 
-export default function Copyright() {
+export default function Copyright(): JSX.Element {
     return (
         <div className="copyright-section">
             <span>
