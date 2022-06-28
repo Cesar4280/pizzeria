@@ -5,14 +5,14 @@ export default function Servbar(): JSX.Element {
         <div className="servbar-section">
             <ul className="servbar-list">
                 <li className="servbar-item">
-                    <a href="http://localhost:3000/">
+                    <a href="#">
                         <span><i className="fas fa-user-check"></i></span>
                         <span className="servbar-option">Servicio al cliente</span>
                     </a>
                 </li>
                 <span className="servbar-separation">|</span>
                 <li className="servbar-item">
-                    <a href="http://localhost:3000/">
+                    <a href="#">
                         <span><i className="fas fa-user-tie"></i></span>
                         <span className="servbar-option">Trabaja con nosotros</span>
                     </a>

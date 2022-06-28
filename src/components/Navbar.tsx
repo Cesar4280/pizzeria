@@ -4,7 +4,7 @@ export default function Navbar(): JSX.Element {
     return (
         <div className="navbar-parallax-section">
             <nav className="navbar-container">
-                <a className="navbar-picture" href="http://localhost:3000/">
+                <a className="navbar-picture" href="#">
                     <img
                         width="269"
                         height="100"
@@ -15,7 +15,7 @@ export default function Navbar(): JSX.Element {
                 </a>
                 <ul className="navbar-menu">
                     <li className="navbar-item">
-                        <a href="http://localhost:3000/">Inicio</a>
+                        <a href="#">Inicio</a>
                     </li>
                     <li className="navbar-item">
                         <a href="#">Menu<i className="fas fa-caret-down"></i></a>
@@ -39,7 +39,7 @@ export default function Navbar(): JSX.Element {
                         </ul>
                     </li>
                     <li className="navbar-item">
-                        <a href="http://localhost:3000/">Pizza Time</a>
+                        <a href="#">Pizza Time</a>
                     </li>
                     <li className="navbar-item">
                         <a href="#">Tiendas<i className="fas fa-caret-down"></i></a>
@@ -125,7 +125,7 @@ export default function Navbar(): JSX.Element {
                     </li>
                 </ul>
                 <div className="navbar-button-wrapper flex-center">
-                    <a href="http://localhost:3000/" className="navbar-button">
+                    <a href="#" className="navbar-button">
                         <i className="far fa-calendar-days"></i>
                         Reservar
                     </a>

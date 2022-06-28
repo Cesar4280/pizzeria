@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import { SliderItem } from '../models/slider';
+import { SliderItem } from "../models/slider";
 import { imagesUriList } from "../services/slider";
 
 import "../styles/Slider.css";
@@ -41,7 +41,7 @@ export default function Slider(): JSX.Element {
     const generateSlideItems = (items: Array<SliderItem>): Array<JSX.Element> => {
         return items.map((item, index) => (
             <div key={index} className="slider-item">
-                <a href="http://localhost:3000/">
+                <a href="#">
                     <img src={item.uri} alt={item.name} loading="lazy" />
                     Crepes
                 </a>
